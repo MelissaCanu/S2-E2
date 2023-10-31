@@ -91,18 +91,18 @@ if (totalShoppingCart > 50) {
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
-let totalCart = 40;
-
-if (totalCart > 50) {
-  console.log(totalCart);
-} else if (totalCart < 50) {
-  console.log(totalCart + 10);
-}
-
-let twentyOff = (totalCart * 20) / 100;
-console.log(twentyOff);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+let totalCart = 40;
+let twentyOff = (totalCart * 20) / 100;
+let totalPromo = totalCart - twentyOff;
+
+if (totalCart > 50) {
+  console.log(totalPromo);
+} else if (totalCart <= 50) {
+  console.log(totalPromo + 10);
+}
 
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
@@ -112,11 +112,22 @@ console.log(twentyOff);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+let numb1 = 4;
+let numb2 = 8;
+let numb3 = 12;
+
+if ((numb1 < numb2, numb3)) {
+  console.log(true);
+}
+
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+let numOrNotNum = "2";
+console.log(typeof numOrNotNum);
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
@@ -124,17 +135,27 @@ console.log(twentyOff);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+let pariOdispari = 57;
+if (pariOdispari % 2 == 0) {
+  console.log("Il numero è pari");
+} else {
+  console.log("Il numero è dispari");
+}
+
 /* ESERCIZIO 10
-  Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
-  let val = 7
-  if (val < 10) {
-      console.log("Meno di 10");
-    } else if (val < 5) {
-      console.log("Meno di 5");
-    } else {
-      console.log("Uguale a 10 o maggiore");
-    }
-*/
+  Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.*/
+
+let val = 10;
+
+if (val < 5) {
+  console.log("Meno di 5");
+}
+if (val >= 5 && val < 10) {
+  console.log("Meno di 10");
+}
+if (val >= 10) {
+  console.log("Uguale a 10 o maggiore");
+}
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
