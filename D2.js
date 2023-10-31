@@ -19,11 +19,27 @@ if (num1 > num2) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+x = 10;
+// console.log(Number.isInteger(x));
+if (x !== 5) {
+  console.log("not equal");
+} else {
+  console.log("equal");
+}
+
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+y = 25;
+
+if (y % 5 === 0) {
+  console.log("divisibile per 5");
+} else {
+  console.log("non divisibile per 5");
+}
 
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
@@ -31,6 +47,30 @@ if (num1 > num2) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+a = 8;
+b = 16;
+
+if (a == 8) {
+  console.log("equivale a 8");
+}
+
+if (b == 8) {
+  console.log("equivale a 8");
+} else {
+  console.log("non equivale a 8");
+}
+
+if (a + b == 8) {
+  console.log("il risultato è pari a 8");
+} else {
+  console.log("il risultato non è pari a 8");
+}
+
+if (b - a == 8) {
+  console.log("il risultato è pari a 8");
+} else {
+  console.log("il risultato non è pari a 8");
+}
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
   C'è una promozione in corso: se il totale del carrello supera 50, l'utente ha diritto alla spedizione gratuita (altrimenti la spedizione ha un costo fisso pari a 10).
