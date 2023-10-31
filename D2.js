@@ -79,10 +79,28 @@ if (b - a == 8) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+let totalShoppingCart = 49;
+
+if (totalShoppingCart > 50) {
+  console.log(totalShoppingCart);
+} else if (totalShoppingCart < 50) {
+  console.log(totalShoppingCart + 10);
+}
+
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
+let totalCart = 40;
+
+if (totalCart > 50) {
+  console.log(totalCart);
+} else if (totalCart < 50) {
+  console.log(totalCart + 10);
+}
+
+let twentyOff = (totalCart * 20) / 100;
+console.log(twentyOff);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
@@ -124,11 +142,11 @@ if (b - a == 8) {
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
 */
 
-const me = {
-  name: "John",
-  lastName: "Doe",
-  skills: ["javascript", "html", "css"],
-};
+// const me = {
+//   name: "John",
+//   lastName: "Doe",
+//   skills: ["javascript", "html", "css"],
+// };
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
