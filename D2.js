@@ -147,16 +147,14 @@ if (pariOdispari % 2 == 0) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let val = 8;
+let val = 10;
 
 if (val < 5) {
   console.log("Meno di 5");
-}
-if (val >= 5 && val < 10) {
+} else if (val < 10) {
   console.log("Meno di 10");
-}
-if (val >= 10) {
-  console.log("Uguale a 10 o maggiore");
+} else {
+  console.log("Uguale o maggiore di 10");
 }
 
 /* ESERCIZIO 11
